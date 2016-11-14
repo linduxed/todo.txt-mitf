@@ -69,7 +69,7 @@ end
 
 module DateFormatter
   def self.with_dots(date)
-    date.to_s.gsub('-', '.')
+    date.to_s.tr('-', '.')
   end
 end
 
